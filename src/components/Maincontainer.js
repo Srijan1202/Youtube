@@ -4,7 +4,7 @@ import ButtonList from './ButtonList'
 
 const Maincontainer = () => {
   return (
-    <div className='flex'>
+    <div >
         <ButtonList/>
         <Videos/>
     </div>
