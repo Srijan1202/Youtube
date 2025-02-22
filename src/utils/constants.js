@@ -1,4 +1,5 @@
 
-const google_api_key="AIzaSyBnXWoFDARz6taqJp6r8FWMcl-yawg4nnQ"
+const google_api_key=process.env.REACT_APP_YOUTUBE_API_KEY
 
-export const youtube="https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=US&key="+google_api_key;
+export const youtube = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${google_api_key}`;
+
