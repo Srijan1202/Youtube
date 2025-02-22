@@ -1,6 +1,7 @@
 import img1 from '../utils/pngwing.com.png'
 import { useDispatch } from 'react-redux'
 import { toggleMenu } from '../utils/appSlice'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     const dispatch= useDispatch()

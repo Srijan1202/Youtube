@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Videocards = ({info}) => {
-    console.log(info);
+    // console.log(info);
     if(!info) return null;
    const  {snippet,statistics} = info;
     const {title,channelTitle,thumbnails} = snippet;
