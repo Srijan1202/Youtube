@@ -18,7 +18,7 @@ const Videos = () => {
     setVideo(data.items);
   };
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap overflow-x-hidden justify-evenly">
       {video.map((item) => (
         <Link to={"/watch?v="+item.id}><Videocards info={item} /></Link>
       ))}

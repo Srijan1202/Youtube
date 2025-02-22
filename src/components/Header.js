@@ -10,7 +10,7 @@ const Header = () => {
     }
 
   return (
-    <div className='grid grid-flow-col p-1 px-4 col-span-12 justify-between items-center shadow-lg'>
+    <div className='grid grid-flow-col p-1 px-4 col-span-12 justify-between items-center shadow-lg overflow-x-hidden'>
       <div className='flex col-span-1' onClick={handleToggle}>
         <img className='h-6 hover:cursor-pointer' src="https://icons.veryicon.com/png/o/miscellaneous/we/sidebar-2.png" alt="sidebar" />
         <img className='h-6 ml-5' src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="youtube" />
