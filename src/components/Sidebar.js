@@ -9,7 +9,7 @@ const Sidebar = () => {
 
   return (
 
-    <div className='w-[12%] h-screen p-5 shadow-lg '>
+    <div className='w-[20vw] h-screen p-5 shadow-lg '>
         <h1 className='font-bold'>Subscription</h1>
         <ul className='pb-5'>
             <li>carry Minati</li>
