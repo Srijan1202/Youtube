@@ -1,8 +1,11 @@
 import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
 
 import Chat from './Chat'
 
 const Livechat = () => {
+  const dispatch = useDispatch();
+
 
     useEffect(()=>
     {
