@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { chat_limit } from "./constants";
 
 const chatSlice= createSlice({
     name: "chat",
@@ -7,9 +8,11 @@ const chatSlice= createSlice({
     },
     reducers:{ 
         addMessage: (state, action)=>{
-            state.messages.push(action.payload)
-        }
+            
+            state.messages.splice(chat_limit,1)
+            state.messages.unshift(action.payload)
     }
+}
 })
 
 export const { addMessage } = chatSlice.actions;

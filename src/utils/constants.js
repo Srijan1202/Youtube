@@ -6,3 +6,5 @@ export const youtube = `https://youtube.googleapis.com/youtube/v3/videos?part=sn
 export const youtube_content_serch = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=";
 
 export const youtube_serch = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
+export const chat_limit=25;
