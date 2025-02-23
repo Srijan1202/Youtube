@@ -28,11 +28,11 @@ const Watchpage = () => {
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowFullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
           ></iframe>
         </div>
-        <div className="border-2 border-black rounded-lg w-full m-1">
+        <div className="border-2 border-black rounded-lg w-full m-1 ">
           <Livechat />
         </div>
       </div>

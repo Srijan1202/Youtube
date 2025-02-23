@@ -37,7 +37,6 @@
       const data = await response.json();
       setserchres(data[1]);
       dispatch(setSearchResults({[serchvalue]:data[1]}));
-      console.log(serchres);
     }
 
     const handleToggle = () => {

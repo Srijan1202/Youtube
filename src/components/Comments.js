@@ -1,7 +1,6 @@
 import photo from "../utils/pngwing.com.png";   
 
 const Comments = ({ comment }) => {
-  console.log(comment);
   return (
     <div>
       <div className="bg-gray-200 p-2 my-2 rounded-xl flex allign-center">
@@ -12,8 +11,8 @@ const Comments = ({ comment }) => {
         </div>
       </div>
       <div className="pl-10 border-l-2">
-        {comment.reply.map((reply) => {
-            return <Comments comment={reply} />
+        {comment.reply.map((reply,i) => {
+            return <Comments key={i} comment={reply} />
         })}
       </div>
     </div>
