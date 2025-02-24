@@ -17,7 +17,8 @@ const Livechat = () => {
         const i = setInterval(()=>{
             
             dispatch(addMessage({name:generate(),message:makeid(20),}))
-        },150)
+        },1500
+      )
 
         return ()=>clearInterval(i)
     },[])

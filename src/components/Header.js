@@ -73,7 +73,7 @@
           </button>
           </div>
 
-          <div className="fixed bg-white w-[22.8%] rounded-lg shadow-xl p-2">  
+          <div className="absolute bg-white w-[22.8%] rounded-lg shadow-xl p-2">  
             <ul>
               
               {serchres.map((item,index) => (<li key={index} className="p-1">🔍{item}</li>))}
